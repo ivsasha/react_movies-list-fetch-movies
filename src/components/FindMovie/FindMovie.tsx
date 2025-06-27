@@ -4,7 +4,7 @@ import { Movie } from '../../types/Movie';
 import { getMovie } from '../../api';
 import { MovieCard } from '../MovieCard';
 import { MovieData } from '../../types/MovieData';
-import { ResponseError } from '../../types/ReponseError';
+import { ResponseError } from '../../types/ResponseError';
 
 type FindMovieProps = {
   addMovie: (mov: Movie) => void;
